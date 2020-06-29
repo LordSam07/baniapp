@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Check Box Mania</string>
+    <string name="proceed">Proceed</string>
+    <string name="gst_18">GST 18%</string>
+    <string name="gst_6">GST 6%</string>
+    <string name="gst_center">GST Center</string>
+    <string name="in_kg">In kg</string>
+    <string name="size">Size :</string>
+    <string name="sugar_42_kg">Sugar [42/kg]</string>
+    <string name="in_lt">In lt</string>
+    <string name="oil_96_kg">Oil [96/kg]</string>
+    <string name="grain_48_kg">Grain [48/kg]</string>
+    <string name="rice_36_kg">Rice [36/kg]</string>
+    <string name="orange_60_kg">Orange [60/kg]</string>
+    <string name="apple_100_kg">Apple [100/kg]</string>
+    <string name="tomato_40_kg">Tomato [40/kg]</string>
+    <string name="onion_50_kg">Onion [50/kg]</string>
+    <string name="potato_20_kg">Potato [20/kg]</string>
+    <string name="bania_app">Bania App</string>
+    <string name="amount">Amount</string>
+    <string name="weight">Weight</string>
+    <string name="items">Items</string>
+    <string name="price">Price</string>
+    <string name="total">Total</string>
+</resources>

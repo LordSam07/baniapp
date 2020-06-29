@@ -209,15 +209,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 temp = (sum / 100) * gst
                 amount = sum + temp
 
-                Toast.makeText(this, "Total :$amount", Toast.LENGTH_LONG).show()
-
-//                val intent = Intent(this, BillActivity::class.java)
-//                val args = Bundle()
-//                args.putSerializable("arr", lisOfItems)
-//                intent.putExtra("items", args)
-//                intent.putExtra("gst", gst)
-//                intent.putExtra("amount", amount)
-//                startActivity(intent)
+                val intent = Intent(this, BillActivity::class.java)
+                intent.putExtra("gst", temp.toString())
+                intent.putExtra("amount", amount.toString())
+                intent.putParcelableArrayListExtra("item", lisOfItems)
+                startActivity(intent)
             }
         }
     }
